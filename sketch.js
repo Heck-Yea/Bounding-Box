@@ -13,7 +13,7 @@ function setup() {
   p3 = createVector(140, 90);
   // Slider that controls T
   slider = createSlider(0, 1, 0, 0.001);
-  slider.position(20, height - 30);
+  slider.position(20, 30);
 }
 
 function findBoundingBoxTValues() {
